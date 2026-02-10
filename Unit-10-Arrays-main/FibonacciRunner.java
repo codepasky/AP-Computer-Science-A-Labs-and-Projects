@@ -9,6 +9,7 @@ public class FibonacciRunner
 	{
 		Fibonacci fib = new Fibonacci(5);
 		fib.sequence();
-		System.out.println(Arrays.toString(fib.getFib()));
+		System.out.println(fib.getFib());
 	}
+
 }
