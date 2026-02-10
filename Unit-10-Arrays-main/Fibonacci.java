@@ -1,6 +1,7 @@
 //(c) A+ Computer Science
 //www.apluscompsci.com
 //Name - paschal
+import java.util.*;
 
 public class Fibonacci
 {
@@ -31,6 +32,7 @@ public class Fibonacci
 
 	//toString
 	public String toString() {
-		return "";
+		return Arrays.toString(fib);
 	}
+
 }
